@@ -1,0 +1,12 @@
+[
+    {
+        "first" : "Otman",
+        "age" : 25,
+        "height" : 180
+    },
+    {
+        "first" : "John",
+        "age" : 28,
+        "height" : 175
+    }
+]

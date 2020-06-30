@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/styles.css">
+    <title>Javascript Page</title>
+</head>
+
+<body>
+    <div class="container-1">
+        <h2>Challenge 1 : Your age in days</h2>
+        <div class="flex-box-container-1">
+            <div>
+                <button class="btn btn-primary" onclick="ageInDays()">Click me</button>
+            </div>
+            <div>
+                <button class="btn btn-danger" onclick="reset()">Reset</button>
+            </div>
+        </div>
+
+        <div class="flex-box-container-1">
+            <div id="flex-box-result"></div>
+        </div>
+    </div>
+
+    <div class='container-2'>
+        <h2>Challenge 2 : Cat generator</h2>
+        <button class="btn btn-success" onclick="generateCat()">Generate Cat</button>
+        <div id="flex-box-img" class="flex-box-container-2">
+        </div>
+    </div>
+
+    <div class="container-3">
+        <h2>Challenge 3 : Rock Paper Scissors</h2>
+        <div class="flex-box-rps" id="rps">
+                <img id="rock" src="https://www.pngitem.com/pimgs/m/109-1094400_rock-paper-scissors-png-clipart-rock-paper-scissor.png" onclick="rpsGame(this)">
+                <img id="paper" src="https://www.pinclipart.com/picdir/big/51-511523_rock-paper-rock-paper-scissors-clipart-png-download.png" onclick="rpsGame(this)">
+                <img id="scissors" src="https://www.vhv.rs/dpng/d/535-5357819_rock-paper-scissors-png-transparent-png.png" onclick="rpsGame(this)">
+        </div>
+
+    </div>
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>
